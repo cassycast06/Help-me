@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support My Education via GCash</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9ecef;
+            color: #343a40;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #28a745;
+            margin-top: 30px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .story {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .donation-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+        .qr-code {
+            margin: 20px 0;
+        }
+        .gcash-details {
+            font-weight: bold;
+            font-size: 20px;
+            color: #007bff;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Help Me Achieve My Dream</h1>
+    <div class="story">
+        <p>My journey began under challenging circumstances. I was born into a world where my father’s absence was felt deeply; he was incarcerated before I even took my first breath. Raised by my incredible mother, I witnessed her relentless fight against adversity. Despite her struggles, she filled our home with love and determination, instilling in me the belief that I could overcome any obstacle. Growing up, I often envied my peers, who had the stability of a complete family, but my mother's unwavering support became my strength.</p>
+        <p>Now, at 20, I am pursuing a degree in Criminology, but I experience financial difficulties in college. Each semester costs about 15,000 pesos, and every bit of support brings me closer to my goal. Your generosity, no matter the size, can help turn my dreams into reality and empower me to break the cycle of hardship. Together, we can prove that resilience and hope can triumph over adversity.</p>
+    </div>
+
+    <div class="donation-container">
+        <h2>Donate via GCash</h2>
+        <div class="qr-code">
+            <img src="gcash-qr-code.png" alt="GCash QR Code" width="200">
+        </div>
+        <p class="gcash-details">Or send directly to my GCash Number: <span>09671334548</span></p>
+        <button onclick="alert('Thank you for your support!')">Donate Now</button>
+    </div>
+
+    <footer>
+        &copy; 2024 Your Name. All rights reserved.
+    </footer>
+
+</body>
+</html>
